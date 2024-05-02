@@ -1,0 +1,41 @@
+# Get user's input for integer and/or floating-point numbers
+a = float(input("Enter any number: "))
+b = float(input("Enter another number: "))
+c = int(input("Enter an integer: "))
+
+# Perform arithmetic operations
+ab_sum = a + b
+ac_diff = a - c
+bc_product = b * c
+ab_quot = a / b
+ab_mdls = a % b
+ab_expo = a ** b
+
+# Print the results
+print("a + b ", ab_sum)
+print("a - c =", ac_diff)
+print("b * c =", bc_product)
+print("a / b =", ab_quot)
+print("a % b =", ab_mdls)
+print("a ** b =", ab_expo)
+
+# Use built-in functions for numerical operations
+a_absolute = abs(a)
+b_rounded = round(b)
+max_value = max(a, b, c)
+min_value = min(a, b, c)
+
+print("Absolute value of c:", c_absolute)
+print("Rounded value of b:", b_rounded)
+print("Maximum value:", max_value)
+print("Minimum value:", min_value)
+
+# Import the math module for more advanced math operations
+import math
+c_square_root = math.sqrt(c)
+b_logarithm_base_10 = math.log10(b)
+a_factorial = math.factorial(abs(a))
+
+print("Square root of c:", c_square_root)
+print("Logarithm base 10 of b:", b_logarithm_base_10)
+print(f"Factorial of |a| ({abs(a)}):", a_factorial)
