@@ -1,0 +1,43 @@
+# Create a dictionary of student information
+student = {
+    "name": "Louis",
+    "age": int(21),
+    "major": "Artificial Intelligence",
+    "grades": {
+        "math": 100,
+        "english": 98,
+        "programming": 92
+    }
+}
+
+# Access dictionary values by keys
+student_name = student["name"]
+student_age = student["age"]
+
+# Modify dictionary values
+student["age"] = 21
+student["grades"]["programming"] = 96
+
+# Add a new key-value pair
+student["gender"] = "Male"
+
+# Check if a key exists in the dictionary
+has_major = "major" in student
+has_height = "height" in student
+
+# Get the list of keys and values
+keys = student.keys()
+values = student.values()
+
+# Iterate through the dictionary
+print("Student Information:")
+for key, value in student.items():
+    print(f"{key}: {value}")
+
+# Remove a key-value pair
+del student["age"]
+
+# Print the updated dictionary
+print("\nStudent Information after removing 'age':")
+for key, value in student.items():
+    print(f"{key}: {value}")
