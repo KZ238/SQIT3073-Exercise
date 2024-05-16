@@ -1,0 +1,53 @@
+# Create a list of fruits
+fruits = ['apple', 'banana', 'citrus', 'dragonfruit', 'elderberry']
+
+# Print the list
+print('Fruit list:', numbers)
+
+# Access elements by index
+first_fruit = fruits[0]
+print('The first element is:', first_fruit)
+
+
+# Slice the list to get a subset
+subset = fruits[2:4]
+print('Subset of the fruit list:', subset)
+
+# Modify an element in the list
+fruits[1] = 'blackberry'
+print('Modified list:', fruits)
+
+
+
+# Append an element to the end of the list
+fruits.append(6)
+print('List after appending 6:"' fruits)
+
+# Remove an element by value
+numbers.remove(3)
+print("List after removing the second element:", fruits)
+
+
+# Find the index of an element
+index_of_3 = numbers.index(3)
+print("Fruit at third index:", index_of_3)
+
+# Check if an element is in the list
+contains_mango = 'mango' in fruits
+print("Does the list contain 'mango'?", contains_mango)
+
+
+# Sort the list
+fruits.sort()
+print("Sorted list:", fruits)
+
+# Reverse the list
+fruits.reverse()
+print("Reversed list:", fruits)
+
+ 
+# Create a list of numbers
+numbers = [1, 2, 3, 4]
+
+#Print the  first element in the numbers list
+print(numbers[0])
