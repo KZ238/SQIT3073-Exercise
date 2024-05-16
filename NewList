@@ -1,8 +1,5 @@
-# Create a list of fruits
-fruits = ['apple', 'banana', 'citrus', 'dragonfruit', 'elderberry']
-
 # Print the list
-print('Fruit list:', numbers)
+print('Fruit list:', fruits)
 
 # Access elements by index
 first_fruit = fruits[0]
@@ -18,19 +15,18 @@ fruits[1] = 'blackberry'
 print('Modified list:', fruits)
 
 
-
 # Append an element to the end of the list
-fruits.append(6)
-print('List after appending 6:"' fruits)
+fruits.append('durian')
+print('List after appending "durian":', fruits)
 
 # Remove an element by value
-numbers.remove(3)
+fruits.remove('apple')
 print("List after removing the second element:", fruits)
 
 
 # Find the index of an element
-index_of_3 = numbers.index(3)
-print("Fruit at third index:", index_of_3)
+index_of_citrus = fruits.index('citrus')
+print("Fruit at third index:", index_of_citrus)
 
 # Check if an element is in the list
 contains_mango = 'mango' in fruits
